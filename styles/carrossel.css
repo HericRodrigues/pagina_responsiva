@@ -1,0 +1,130 @@
+/* Estilo do Título do Carrossel */
+.carrosel__titulo {
+    color: var(--cor-letra-titulo-laranja);
+    background-color: var(--cor-fundo-seg);
+    font-family: var(--letra-principal);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0;
+}
+
+/* Estilo das Imagens do Carrossel */
+.swiper-slide img {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilo dos Botões de Navegação do Carrossel (Mobile) */
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .swiper-button-prev, 
+    .swiper-button-next {
+        display: none; 
+    }
+}
+
+/* Contêiner do Carrossel */
+.carrosel {
+    position: relative;
+    font-family: var(--letra-principal); 
+}
+
+/* Contêiner Swiper */
+.swiper {
+    position: relative;     
+}
+
+.swiper-pagination {
+    position: absolute;
+} 
+
+/* Estilos Gerais do Card */
+.card {
+    background: var(--cor-fundo-seg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0.5em;
+    padding: 1.5em; /* Aumentado para dar espaço interno */
+    font-family: var(--letra-principal);
+    position: relative; /* Necessário para posicionamento absoluto */
+    
+}
+
+/* Estilos da Descrição do Card */
+.card__descricao {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+
+.descricao__titulo {
+    color: var(--cor-letra-titulo-laranja);
+    font-weight: 700;
+}
+
+.descricao__titulo-livro {
+    color: var(--cor-letra-azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-size: 14px;
+    padding: 0 0 5em 0;
+}
+
+/* Estilo da imagem angular */
+.img__angular {
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+/* Estilos dos Botões */
+.botoes {
+    display: flex;
+    gap: 20x; /* Espaçamento entre os botões */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.botoes__item {
+    margin: 0 0.6em; 
+}
+
+/* Alinhamento do Botão "Saiba Mais" */
+.botoes__ancora-container {
+    text-align: right;
+}
+
+/* Estilos do Botão "Saiba Mais" */
+.botoes__ancora {
+    background-color: var(--cor-letra-titulo-laranja);
+    padding: 1em 2.2em;
+    color: var(--cor-fundo-seg);
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.botoes__ancora:hover {
+    background-color: var(--cor-letra-titulo-laranja-hover);
+
+}
+
+

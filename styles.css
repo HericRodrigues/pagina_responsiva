@@ -1,0 +1,25 @@
+/* Importações de Estilos */
+@import url("/styles/header.css");
+@import url("/styles/banner.css");
+@import url("/styles/carrossel.css");
+@import url("/styles/topicos.css");
+@import url("/styles/contato.css");
+
+/* Definição de Variáveis de CSS */
+:root {
+    --cor-fundo: #EBECEE; /* Cor de fundo principal */
+    --cor-fundo-seg: #FFFFFF; /* Cor de fundo secundária */
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%); /* Gradiente azul */
+
+    --cor-letra-titulo-laranja: #EB9B00; /* Cor do título em laranja */
+    --letra-principal: "Roboto Mono"; /* Fonte principal */
+    --letra-segundaria: "Josefin Sans"; /* Fonte segundaria */
+    --cor-letra-branco: #FFFFFF; /* Cor do texto em branco */
+    --cor-letra-azul: #002F52; /* Cor do texto em azul */
+    --cor-letra-preta: #000000;
+}
+
+/* Estilo Global do Corpo da Página */
+body {
+    background-color: var(--cor-fundo); /* Define a cor de fundo do corpo */
+}

@@ -1,0 +1,48 @@
+/* Estilos da Seção Barner */
+.banner {
+    background: var(--cor-azul-degrade);
+    color: var(--cor-letra-branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+/* Estilo do Título da Seção Barner */
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Estilo do Texto da Seção Barner */
+.banner__texto {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+/* Estilo da Barra de Pesquisa da Seção Barner */
+.banner__pesquisa {
+    background-color: transparent;
+    font-family: var(--letra-principal);
+    border: 2px solid var(--cor-letra-branco);
+    color: var(--cor-letra-branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+/* Estilo do Placeholder da Barra de Pesquisa */
+.banner__pesquisa::placeholder {
+    font-family: var(--letra-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-letra-branco);
+    background: url(/assets/Lupa.svg) no-repeat;
+    background-position: 0;
+    padding: 1.5em;
+}
+
+/*Estilo da Barra de Menu*/
+.container__botao {
+    display: none;
+}
+
